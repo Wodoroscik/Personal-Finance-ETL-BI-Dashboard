@@ -108,7 +108,7 @@ def get_trend_data(source_df, group_col, value_col='Amount'):
     return grouped
 
 
-tab1, tab2 = st.tabs(["📊 Main Dashboard", "⚖️ Year-over-Year Comparison"])
+tab1, tab2 = st.tabs(["Main Dashboard", "Year-over-Year Comparison"])
 
 with tab1:
     total_income = df_income['Amount'].sum()
@@ -124,7 +124,7 @@ with tab1:
 
     st.markdown("---")
 
-    st.subheader("📈 Macro Trend: Income vs Expenses")
+    st.subheader("Macro Trend: Income vs Expenses")
     macro_trend = get_trend_data(df_filtered, 'Type')
     title_suffix = f"(Smoothed: {smooth_window} days)" if smooth_window > 0 else "(Raw Data)"
     
@@ -139,7 +139,7 @@ with tab1:
 
     st.markdown("---")
 
-    st.subheader("📊 Expense Structure & Category Trends")
+    st.subheader("Expense Structure & Category Trends")
     col_left, col_right = st.columns([1, 2])
 
     with col_left:
@@ -178,7 +178,7 @@ with tab1:
 
     st.markdown("---")
 
-    st.header("🔍 Category Drill-down")
+    st.header("Category Drill-down")
     st.markdown("Deep dive into sub-categories of a specific group.")
 
     all_groups = sorted(df_filtered['Group'].unique() if 'Group' in df_filtered.columns else [])
@@ -213,7 +213,7 @@ with tab1:
 
 
 with tab2:
-    st.header("⚖️ Year-over-Year Comparison (Month Range)")
+    st.header("Year-over-Year Comparison (Month Range)")
     
     months_dict = {
         1: "January", 2: "February", 3: "March", 4: "April", 5: "May", 6: "June",
@@ -221,7 +221,7 @@ with tab2:
     }
     months_names = list(months_dict.values())
     
-    st.markdown("### ⚙️ Comparison Configuration")
+    st.markdown("### Comparison Configuration")
     col_yoy1, col_yoy2 = st.columns(2)
     
     with col_yoy1:
