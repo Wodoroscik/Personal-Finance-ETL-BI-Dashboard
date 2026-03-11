@@ -1,0 +1,70 @@
+{
+    "BIEDRONKA": {
+        "Grupa": "Wspólne gosp. domowe",
+        "Kategoria": "Wspólne gosp. domowe"
+    },
+    "BAR MLECZNY": {
+        "Grupa": "Jedzenie na mieście",
+        "Kategoria": "Jedzenie na mieście"
+    },
+    "PIEKARNIA": {
+        "Grupa": "Wspólne gosp. domowe",
+        "Kategoria": "Wspólne gosp. domowe"
+    },
+    "PGNIG": {
+        "Grupa": "Mieszkanie",
+        "Kategoria": "Opłata stała"
+    },
+    "MPSA": {
+        "Grupa": "Transport",
+        "Kategoria": "Komunikacja miejska"
+    },
+    "DOLADOWANIA.ORANGE": {
+        "Grupa": "Telekomunikacja",
+        "Kategoria": "Telefon"
+    },
+    "MCDONALDS": {
+        "Grupa": "Jedzenie na mieście",
+        "Kategoria": "Jedzenie na mieście"
+    },
+    "CROPP": {
+        "Grupa": "Ubrania",
+        "Kategoria": "Ubrania"
+    },
+    "BURGER KING": {
+        "Grupa": "Jedzenie na mieście",
+        "Kategoria": "Jedzenie na mieście"
+    },
+    "EON": {
+        "Grupa": "Mieszkanie",
+        "Kategoria": "Opłata stała"
+    },
+    "ROSSMANN": {
+        "Grupa": "Higiena",
+        "Kategoria": "Kosmetyki"
+    },
+    "ZDROFIT": {
+        "Grupa": "Siłownia",
+        "Kategoria": "Siłownia"
+    },
+    "UPC": {
+        "Grupa": "Telekomunikacja",
+        "Kategoria": "Internet"
+    },
+    "APTEKA": {
+        "Grupa": "Wspólne gosp. domowe",
+        "Kategoria": "Wspólne gosp. domowe"
+    },
+    "PUTKA": {
+        "Grupa": "Wspólne gosp. domowe",
+        "Kategoria": "Wspólne gosp. domowe"
+    },
+    "KOLEO": {
+        "Grupa": "Transport",
+        "Kategoria": "Pociągi"
+    },
+    "MUZEUM": {
+        "Grupa": "Rozrywka",
+        "Kategoria": "Podróże"
+    }
+}

@@ -1,0 +1,13 @@
+# Python virtual environments
+venv/
+env/
+
+# Private data and database files
+*.csv
+*.db
+*.sqlite3
+
+# Python temporary files and cache
+__pycache__/
+*.pyc
+.DS_Store
