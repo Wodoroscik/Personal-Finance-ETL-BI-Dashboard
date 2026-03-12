@@ -1,70 +1,78 @@
 {
     "BIEDRONKA": {
-        "Grupa": "Wspólne gosp. domowe",
-        "Kategoria": "Wspólne gosp. domowe"
+        "Grupa": "Shared household",
+        "Kategoria": "Shared household"
     },
+    "ZABKA": {
+        "Grupa": "Shared household",
+        "Kategoria": "Shared household"
+    },    
     "BAR MLECZNY": {
-        "Grupa": "Jedzenie na mieście",
-        "Kategoria": "Jedzenie na mieście"
+        "Grupa": "Dining out",
+        "Kategoria": "Dining out"
     },
     "PIEKARNIA": {
-        "Grupa": "Wspólne gosp. domowe",
-        "Kategoria": "Wspólne gosp. domowe"
+        "Grupa": "Shared household",
+        "Kategoria": "Shared household"
     },
     "PGNIG": {
-        "Grupa": "Mieszkanie",
-        "Kategoria": "Opłata stała"
+        "Grupa": "Housing",
+        "Kategoria": "Fixed fee"
     },
     "MPSA": {
         "Grupa": "Transport",
-        "Kategoria": "Komunikacja miejska"
+        "Kategoria": "Public transport"
     },
     "DOLADOWANIA.ORANGE": {
-        "Grupa": "Telekomunikacja",
-        "Kategoria": "Telefon"
+        "Grupa": "Telecommunications",
+        "Kategoria": "Phone"
     },
     "MCDONALDS": {
-        "Grupa": "Jedzenie na mieście",
-        "Kategoria": "Jedzenie na mieście"
+        "Grupa": "Dining out",
+        "Kategoria": "Dining out"
     },
     "CROPP": {
-        "Grupa": "Ubrania",
-        "Kategoria": "Ubrania"
+        "Grupa": "Clothing",
+        "Kategoria": "Clothing"
     },
     "BURGER KING": {
-        "Grupa": "Jedzenie na mieście",
-        "Kategoria": "Jedzenie na mieście"
+        "Grupa": "Dining out",
+        "Kategoria": "Dining out"
     },
     "EON": {
-        "Grupa": "Mieszkanie",
-        "Kategoria": "Opłata stała"
+        "Grupa": "Housing",
+        "Kategoria": "Fixed fee"
     },
     "ROSSMANN": {
-        "Grupa": "Higiena",
-        "Kategoria": "Kosmetyki"
+        "Grupa": "Hygiene",
+        "Kategoria": "Cosmetics"
     },
     "ZDROFIT": {
-        "Grupa": "Siłownia",
-        "Kategoria": "Siłownia"
+        "Grupa": "Gym",
+        "Kategoria": "Gym"
     },
     "UPC": {
-        "Grupa": "Telekomunikacja",
+        "Grupa": "Telecommunications",
         "Kategoria": "Internet"
     },
     "APTEKA": {
-        "Grupa": "Wspólne gosp. domowe",
-        "Kategoria": "Wspólne gosp. domowe"
+        "Grupa": "Shared household",
+        "Kategoria": "Shared household"
     },
     "PUTKA": {
-        "Grupa": "Wspólne gosp. domowe",
-        "Kategoria": "Wspólne gosp. domowe"
+        "Grupa": "Shared household",
+        "Kategoria": "Shared household"
     },
     "KOLEO": {
         "Grupa": "Transport",
-        "Kategoria": "Pociągi"
+        "Kategoria": "Trains"
     },
     "MUZEUM": {
-        "Grupa": "Rozrywka",
-        "Kategoria": "Podróże"
-    }
+        "Grupa": "Entertainment",
+        "Kategoria": "Travel"
+    },
+    "EMPLOYER": {
+        "Grupa": "Salary",
+        "Kategoria": "Salary"
+    }    
 }
