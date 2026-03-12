@@ -1,28 +1,28 @@
-# Personal-Finance-ETL-BI-Dashboard
-End-to-end Python ETL pipeline and interactive Streamlit BI dashboard for personal finance tracking. Built with Pandas, SQLite, and Docker.
+# Personal Finance ETL & BI Dashboard
+Python ETL pipeline and Streamlit dashboard for processing and visualizing bank statement data. Built with Pandas, SQLite, and Docker.
 
-## What is this?
-This is an end-to-end Data Engineering and Business Intelligence project. I built a custom ETL pipeline that parses raw, messy CSV bank statements, automatically categorizes transactions using a self-learning rule engine, loads them into a relational database, and visualizes everything in an interactive web dashboard.
+## Overview
+A local data pipeline designed to parse unstructured bank CSV exports, map transactions to predefined categories, and store them in a relational database for visualization. The project includes an interactive web frontend for data analysis.
 
-*(Note: The data shown in the screenshots is generated/mocked for demonstration purposes).*
+*(Note: The data shown in the screenshots is generated for demonstration purposes).*
 
-## The Tech Stack
+## Tech Stack
 * **Language:** Python 3
 * **ETL & Data Processing:** Pandas
 * **Database:** SQLite (`sqlite3`)
 * **Frontend & BI:** Streamlit, Plotly Express
 * **Infrastructure:** Docker
 
-## Key Features & Engineering Highlights
+## Technical Implementation
 
-* **Robust Bank CSV Parsing:** The ETL script (`etl_processor.py`) dynamically handles different file encodings (UTF-8, CP1250) and messy string formats (quotes, currency strings, varying date formats) typical for banking exports.
-* **Self-Learning Categorization Engine:** The script uses an interactive CLI to categorize unknown transactions. If the user saves a rule, it updates a `rules.json` file, allowing the system to automatically tag similar transactions in the future.
-* **Idempotent Database Loading:** Uses an upsert-like logic to ensure that running the ETL multiple times on the same bank statements won't duplicate transactions in the database.
-* **Interactive BI Dashboard:** Built with Streamlit, featuring:
-  * Dynamic timeframe granularity (Day/Week/Month).
-  * Moving Average smoothing algorithms for clearer macro trendlines.
-  * Deep drill-down capabilities into specific expense categories.
-  * Year-over-Year comparison tool with dynamic month-range selection.
+* **Data Ingestion & Cleaning:** The ETL script (`etl_processor.py`) handles varying CSV encodings (e.g., UTF-8, CP1250) and normalizes inconsistent string formats, dates, and currencies typical for banking exports.
+* **Rule-Based Categorization:** Uses an interactive CLI prompt to handle unknown transactions. User-defined category mappings are saved to a local `rules.json` file to automate future pipeline runs.
+* **Idempotent Writes:** Implements upsert-like logic based on transaction hashes/IDs to prevent duplicate database entries when reprocessing the same source files.
+* **Data Visualization:** A Streamlit dashboard featuring:
+  * Configurable timeframe granularity (Day/Week/Month).
+  * Moving average calculations for macro trendlines.
+  * Category-level filtering.
+  * Year-over-Year (YoY) comparisons.
 
 <img width="1920" height="791" alt="image" src="https://github.com/user-attachments/assets/6944db27-7a44-4905-b441-5cd6ab63b24d" />
 
