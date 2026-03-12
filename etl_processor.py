@@ -114,8 +114,8 @@ def get_category_interactive(desc, amount, rules):
 
     return selected_grp, selected_cat, False
 
-def parse_bank_csv_robust(file_path):
-    """Robust parser for bank CSV files with encoding detection."""
+def parse_bank__robust(file_path):
+    """Robust parser for bank  files with encoding detection."""
     encodings = ['cp1250', 'utf-8', 'iso-8859-2']
     lines = []
     
@@ -180,9 +180,9 @@ def main():
     else:
         df_master = pd.DataFrame(columns=['Date', 'Year', 'Month', 'Type', 'Group', 'Category', 'Amount'])
 
-    bank_files = glob.glob("Zestawienie*.csv")
+    bank_files = glob.glob("*.csv")
     if not bank_files:
-        print("No 'Zestawienie*.csv' files found in the directory.")
+        print("No '*.csv' files found in the directory.")
         return
 
     new_entries = []
