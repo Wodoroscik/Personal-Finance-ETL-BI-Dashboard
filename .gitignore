@@ -6,6 +6,7 @@ env/
 *.csv
 *.db
 *.sqlite3
+!budget.db
 
 # Python temporary files and cache
 __pycache__/
